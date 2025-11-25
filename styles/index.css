@@ -5,7 +5,6 @@
 body {
   margin: 0;
   font-family: "Poppins", "Nunito", Arial, sans-serif;
-  background: linear-gradient(180deg, #dbeeff, #f0e9ff);
   color: #24324a;
   line-height: 1.4;
 }
@@ -64,6 +63,11 @@ h2 {
   font-size: 1.15rem;
   margin: 8px 0;
   color: #24324a;
+}
+
+h3{
+  font-size: 1.35rem;
+  margin-bottom: -10px;
 }
 
 .lead {
@@ -181,12 +185,12 @@ body {
 }
 
 h1 {
-  font-size: 1.6rem;
+  font-size: 3rem;
   margin: 10px 0;
 }
 
 h2 {
-  font-size: 1.15rem;
+  font-size: 2rem;
   margin: 8px 0;
   color: #24324a;
 }
