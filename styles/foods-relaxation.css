@@ -8,6 +8,17 @@ body {
   line-height: 1.4;
 }
 
+#background {
+  display: inline-block;
+  padding: 8px 16px; 
+  background: linear-gradient(90deg, #e6f3ff, #efe6ff); 
+  border-radius: 12px;
+  color: #04202a;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(36,50,74,0.06);
+}
+
 .container {
   max-width: 1000px;
   margin: 0 auto;
