@@ -29,8 +29,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 12px 20px;
-  flex-wrap: wrap;
-  gap: 12px;
+  gap: 20px;
 }
 
 .logo {
@@ -38,6 +37,7 @@ body {
   text-decoration: none;
   color: #24324a;
   font-size: 18px;
+  white-space: nowrap;
 }
 
 #background {
@@ -46,6 +46,28 @@ body {
   background: linear-gradient(90deg, #e6f3ff, #efe6ff);
   border-radius: 12px;
   color: #04202a;
+  font-weight: 700;
+  box-shadow: 0 4px 10px rgba(36, 50, 74, 0.06);
+}
+
+.main-nav {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #24324a;
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.main-nav a#background {
+  background: linear-gradient(90deg, #e6f3ff, #efe6ff);
+  color: #04202a;
+  font-weight: 700;
 }
 
 h1 {
