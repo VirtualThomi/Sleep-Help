@@ -43,6 +43,10 @@ body {
   box-shadow: 0 4px 10px rgba(36,50,74,0.06);
 }
 
+.logo{
+  text-decoration: none;
+}
+
 .logo:hover{
   display: inline-block;
   padding: 8px 16px;
