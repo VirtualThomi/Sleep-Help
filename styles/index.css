@@ -18,7 +18,7 @@ body {
 
 .site-header {
   background: #ffffffcc;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  border-bottom: 1px solid rgba(2, 2, 2, 0.06);
   position: sticky;
   top: 0;
   z-index: 100;
