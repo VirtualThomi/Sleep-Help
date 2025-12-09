@@ -10,17 +10,6 @@ body {
   line-height: 1.4;
 }
 
-#background {
-  display: inline-block;
-  padding: 8px 16px;
-  background: linear-gradient(90deg, #e6f3ff, #efe6ff);
-  border-radius: 12px;
-  color: #041f29;
-  font-weight: 700;
-  text-decoration: none;
-  box-shadow: 0 4px 10px rgba(36,50,74,0.06);
-}
-
 .container {
   max-width: 1000px;
   margin: 0 auto;
@@ -29,7 +18,7 @@ body {
 
 .site-header {
   background: #ffffffcc;
-  border-bottom: 1px solid rgba(2, 2, 2, 0.06);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -43,25 +32,22 @@ body {
   gap: 20px;
 }
 
-#background {
-  display: inline-block;
-  padding: 8px 16px; 
-  background: linear-gradient(90deg, #e6f3ff, #efe6ff); 
-  border-radius: 12px;
-  color: #04202a;
+.logo {
   font-weight: 700;
   text-decoration: none;
-  box-shadow: 0 4px 10px rgba(36,50,74,0.06);
+  color: #24324a;
+  font-size: 18px;
+  white-space: nowrap;
 }
 
-.logo:hover{
+#background {
   display: inline-block;
   padding: 8px 16px;
   background: linear-gradient(90deg, #e6f3ff, #efe6ff);
   border-radius: 12px;
   color: #04202a;
-  text-decoration: none;
-  box-shadow: 0 4px 10px rgba(36,50,74,0.06);
+  font-weight: 700;
+  box-shadow: 0 4px 10px rgba(36, 50, 74, 0.06);
 }
 
 .main-nav {
