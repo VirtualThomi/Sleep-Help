@@ -242,6 +242,7 @@ a:focus {
 .card h3 {
   color: #0d5a9e;
   margin-top: 0;
+  padding-bottom: 5px;
 }
 
 .card p {
