@@ -10847,6 +10847,13 @@ textarea.form-control-lg {
   min-width: 100vw;
 }
 
+#sidebarToggle {
+  font-size: 1.5rem;
+  background-color: transparent !important;
+  border: none;
+  color: #0d6efd;
+}
+
 body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   margin-left: 0;
 }
